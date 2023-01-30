@@ -1,0 +1,474 @@
+/* Root */
+
+:root {
+    --white: #FFFFFF;
+    --light-gray: #E0E0E0;
+    --accent-color: #B8A425;
+    --main-color: #2B2B2B;
+    --dark-color: #3B3B3B;
+    --area-distance: 100px;
+
+}
+
+/* font-styles */
+
+h1 {
+    font-family: ;
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin: 0;
+}
+
+h2 {
+    font-family: fantasy;
+    font-size: 40px;
+    font-weight: ;
+    font-style: italic;
+    color: ;
+    margin: 0;
+}
+
+h3 {
+    font-family: ;
+    font-size: ;
+    font-weight: ;
+    color: ;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: ;
+    font-weight: 100;
+    color: var(--white);
+}
+
+h5 {
+    font-family: ;
+    font-size: ;
+    font-weight: ;
+    color: ;
+}
+
+h6 {
+    font-family: ;
+    font-size: ;
+    font-weight: ;
+    color: ;
+}
+
+/* Navigation */
+
+.nav-logo {
+    margin-left: 10px;
+}
+
+.nav-item.active {
+    background-color: var(--main-color);
+}
+
+.nav-item a {
+    color: var(--dark-color);
+}
+
+.nav-item a:hover {
+    color: var(--accent-color);
+}
+
+/* Home */
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.home h1 {
+    font-size: 90px;
+}
+
+.home h2 {
+    font-size: 60px;
+}
+
+
+.video {
+    opacity: 0.3;
+    height: 730px;
+}
+
+.home-inhalt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-500px);
+
+}
+
+.button-home {
+    height: 40px;
+    width: 180px;
+    color: white;
+    background-color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+    border-radius: 300px;
+    transition: ease-in-out 0.2s;
+}
+
+.button-home:hover {
+    height: 40px;
+    width: 180px;
+    color: rgb(42, 42, 42);
+    background-color: var(--white);
+    border: 1px solid var(--accent-color);
+    border-radius: 300px;
+    transition: ease-in-out 0.2s;
+}
+
+/* about */
+
+#about {
+    width: 58%;
+    height: 700px;
+    background-color: none;
+    display: flex;
+    align-items: center;
+}
+
+.bild {
+    height: 400px;
+    background-image: url(bilder/bar.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-background {
+    height: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: #3B3B3B;
+}
+
+.about-border {
+    height: 100%;
+    width: 100%;
+    background-color: #3B3B3B;
+    border: 1px dashed grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.about-inhalt {
+    height: 80%;
+    width: 75%;
+}
+
+.about-logo {
+    margin: 0px 0px 30px 0px;
+
+}
+
+.about-picture {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #B8A425;
+    border-radius: 300px;
+    background-image: url(bilder/koch.jpg);
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+/* Reservation */
+#reservation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: var(--area-distance);
+}
+
+
+/* Menü Bereich */
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: var(--area-distance);
+}
+.logo {
+    margin-bottom: 30px;
+}
+
+#carouselExampleDark {
+    height: 300px;
+    width: 58%;
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel.slide {
+    height: 600px;
+    width: 58%;
+}
+.carousel-item.active {
+    height: 600px;
+  
+}
+
+.button-menu {
+    height: 40px;
+    width: 180px;
+    color: white;
+    background-color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+    border-radius: 300px;
+    transition: ease-in-out 0.2s;
+    margin-top: 30px;
+}
+
+.button-menu:hover {
+    height: 40px;
+    width: 180px;
+    color: rgb(42, 42, 42);
+    background-color: var(--white);
+    border: 1px solid var(--accent-color);
+    border-radius: 300px;
+    transition: ease-in-out 0.2s;
+}
+
+/* Kontakt beriech */
+
+
+#contact {
+    height: auto;
+    width: 100%;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: var(--area-distance);
+    text-align: center;
+}
+#contact h4 {
+    color: var(--dark-color);
+}
+.contact-elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    width: auto;
+    background-color: none;
+    margin-top: 40px;
+}
+
+.contact-element-one {
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: none;
+}
+
+.contact-element-two {
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: none;
+}
+
+.contact-element-three {
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: none;
+}
+
+
+/* Galerie */
+
+.game-board {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+
+.box {
+    background: #444;
+    border: 1px solid #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AAA;
+}
+
+.box img {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+/* Media screens (Bildschrifmanpassungen -------------------------------------------- */
+
+
+@media screen and (max-width:1400px) {
+
+    /* home _________________________*/
+
+
+
+    /* about _________________________*/
+    #about {
+        width: auto;
+        height: 700px;
+        background-color: none;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Contact _________________________*/
+
+
+    .contact-element-one {
+        width: 180px;
+    }
+
+    .contact-element-two {
+        width: 180px;
+    }
+
+    .contact-element-three {
+        width: 180px;
+
+    }
+
+    .contact-elements {
+
+
+        width: 100%;
+
+
+    }
+  /* Menü _________________________*/
+
+  .carousel.slide {
+    height: auto;
+    width: 100%;
+}
+.carousel-item.active {
+    height: auto;
+  
+}
+
+
+
+}
+
+
+@media screen and (max-width:850px) {
+    .home h1 {
+        font-size: 40px;
+    }
+
+    .home h2 {
+        font-size: 40px;
+    }
+
+    .home {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .video {
+        height: 600px;
+
+
+    }
+
+    .home-inhalt {
+
+
+        transform: translateY(-400px);
+
+    }
+
+
+    /* home _________________________*/
+
+
+    /* about _________________________*/
+    #about {
+        width: auto;
+        height: 700px;
+        background-color: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .bild {
+        height: 400px;
+        background-image: none;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-background {
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        background-color: #3B3B3B;
+    }
+
+
+    /* Contact _________________________*/
+    .contact-element-one {
+        width: 100%;
+    }
+
+    .contact-element-two {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .contact-element-three {
+        width: 100%;
+        margin-top: 30px;
+
+    }
+
+    .contact-elements {
+
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+
+
+    }
+}

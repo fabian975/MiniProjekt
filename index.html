@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+  <title>Resto</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Bootstrap5/css/bootstrap.min.css">
+  <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/bildschirm.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="Bootstrap5/js/bootstrap.bundle.min.js"></script>
+  <script>
+    "use strict";
+
+    // Script for Reservation Button
+    function calc(number) {
+
+      var Ausgabe = "Thank you for your Booking!";
+      return Ausgabe;
+    }
+
+
+    function clicked() {
+      var input = document.getElementById("idInput").value;
+      var output = calc(input);
+      document.getElementById("idOutput").innerHTML = output;
+    }
+
+  </script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <!-- Navigation ------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <span class="fs-4">Resto</span>
+        <img src="bilder/logo.png" class="nav-logo" alt="" height="30px">
+      </a>
+
+      <ul class="nav nav-pills">
+
+        <li class="nav-item"><a href="index.html" class="nav-link">Startseite</a></li>
+        <li class="nav-item"><a href="index.html#about" class="nav-link">Über uns</a></li>
+        <li class="nav-item"><a href="index.html#reservation" class="nav-link">Reservieren</a></li>
+        <li class="nav-item"><a href="galerie.html" class="nav-link">Galerie</a></li>
+        <li class="nav-item"><a href="index.html#contact" class="nav-link">Kontakt </a></li>
+      </ul>
+    </header>
+  </div>
+
+
+ <!-- Home ------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="home">
+
+    <video class="video" autoplay loop muted plays-inline>
+      <source src="video.mp4" type="video/mp4">
+    </video>
+    <div class="home-inhalt">
+      <h1>Welcome to</h1>
+      <h2>The Resto</h2>
+      <img src="bilder/logo.png" alt="" height="30px">
+      <p>We stand for Quality and use only Naturel Products</p>
+
+      <a href="index.html#reservation"> <button class="button-home">Book your table</button></a>
+    </div>
+  </div>
+
+ <!-- About us ------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <center>
+    <div id="about">
+      <div class="bild">
+        <div class="about-background">
+          <div class="about-border">
+            <div class="about-inhalt">
+              <h1>Discover</h1>
+              <h2>OUR STORY</h2>
+              <img class="about-logo" src="bilder/logo.png" alt="" height="30px">
+
+              <br>
+              <h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolor corporis odit
+                delectus nam ex
+                eveniet,
+                natus
+                repellat laboriosam quod animi provident similique iure iste architecto sunt officiis
+                molestias omnis?
+                Magnam
+                quis
+                similique quos cumque placeat sapiente perspiciatis eos omnis consequatur inventore eligendi
+                beatae ut
+                dolorem
+                aliquid quae accusamus, voluptate, assumenda tenetur architecto expedita facilis? Saepe ipsa
+                odio placeat
+              </h4>
+
+              <div class="about-picture"></div><br>
+              Russel Stephens <br>
+              Chef Koch
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </center>
+
+  <!-- Reservation ------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <center>
+    <div class="res">
+      <div id="reservation">
+        <h1>Reservation</h1>
+        <h3>Book your table</h3>
+        <img class="logo" src="bilder/logo.png" alt="" height="30px">
+
+        <div class="opening">
+          <h1>Monday to Friday</h1>
+          15am - 22pm
+          <h1>Saturday / Sunday </h1>
+          16am - 24pm
+        </div>
+
+
+        <div class="res-fields">
+          <div class="res-fields-row">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <input type="tel" placeholder="Your Tel">
+          </div>
+          <div class="res-fields-row">
+            <input type="date" placeholder="Name">
+            <input type="time" placeholder="Name">
+            <input type="number" placeholder="How much People?">
+          </div>
+        </div>
+        <div id="idOutput"></div><br>
+        <button class="button-home" onclick="clicked()">Book</button><br>
+        <input id="idInput" type="text" value=""><br>
+
+
+      </div>
+    </div>
+  </center>
+
+ <!-- Events ------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <center>
+    <div id="events">
+      <h1>Upcoming</h1>
+      <h3>Our Events</h3>
+      <img class="logo" src="bilder/logo.png" alt="" height="30px">
+      <div id="events">
+        <div class="event-one">
+
+          <div class="event-bild-one">
+            <div class="event-datum">08
+
+            </div>
+          </div>
+          <div class="event-right">
+            <div class="event-title">Night Inspirescu Party</div>
+            <div class="event-informations">! Restaurant Resto O10:00 pm - 06:00 am</div>
+            <div class="event-button">BUY TICKETS</div>
+          </div>
+        </div>
+
+        <div class="event-two">
+          <div class="event-bild-two">
+            <div class="event-datum">08</div>
+          </div>
+          <div class="event-right">
+            <div class="event-title">Night Inspirescu Party</div>
+            <div class="event-informations">! Restaurant Resto O10:00 pm - 06:00 am</div>
+            <div class="event-button">BUY TICKETS</div>
+          </div>
+        </div>
+
+        <div class="event-three">
+          <div class="event-bild-three">
+            <div class="event-datum">08</div>
+          </div>
+          <div class="event-right-three">
+            <div class="event-title">Night Inspirescu Party</div>
+            <div class="event-informations">! Restaurant Resto O10:00 pm - 06:00 am</div>
+            <div class="event-button">BUY TICKETS</div>
+          </div>
+        </div>
+      </div>
+  </center>
+
+ <!-- Slider ------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <center>
+    <div id="menu">
+      <h1>Discover</h1>
+      <h3>Our Gallery</h3>
+      <img class="logo" src="bilder/logo.png" alt="" height="30px">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Bilder/gallery-bild-one.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Bilder/gallery-steake.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Bilder/gallery-desert.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <a href="galerie.html">
+        <button class="button-menu">View Gallery</button></a>
+  </center>
+
+ <!-- Contact ------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div>
+    <div id="contact">
+      <h1>Contact US</h1>
+      <img class="logo" src="bilder/logo.png" alt="" height="30px">
+
+      <h4>Sample text. Click to select the text box. Click again or double click to start editing the text.</h4>
+      <div class="contact-elements">
+
+
+        <div class="contact-element-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-geo-alt"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+          </svg>
+
+          <h3>Adresse</h3>
+          <h4>Königsallee 2 </h4>
+        </div>
+
+
+        <div class="contact-element-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-telephone"
+            viewBox="0 0 16 16">
+            <path
+              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+          </svg>
+          <h3>Telefon</h3>
+          <h4>0211 123456</h4>
+        </div>
+
+
+        <div class="contact-element-three">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-envelope"
+            viewBox="0 0 16 16">
+            <path
+              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+          </svg>
+          <h3>Email</h3>
+          <h4>ther-resto@duesseldorf.de</h4>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+ <!-- Footer ------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <center>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">© 2023 Resto </p>
+
+
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Startseite</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">Über uns</a></li>
+        <li class="nav-item"><a href="#reservation" class="nav-link px-2 text-muted">Reservieren</a></li>
+        <li class="nav-item"><a href="galerie.html" class="nav-link px-2 text-muted">Galerie</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Kontakt</a></li>
+      </ul>
+    </footer>
+  </center>
+
+
+</body>
+
+</html>

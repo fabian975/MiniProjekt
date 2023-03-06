@@ -1,5 +1,4 @@
 /*--- Root --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 :root {
     --white: #FFFFFF;
     --light-gray: #E0E0E0;
@@ -7,73 +6,58 @@
     --main-color: #2B2B2B;
     --dark-color: #3B3B3B;
     --area-distance: 100px;
-
 }
-
 /*--- font-styles --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 h1 {
     font-size: 40px;
     font-weight: bold;
     color: var(--accent-color);
     margin: 0;
 }
-
 h2 {
     font-family: fantasy;
     font-size: 40px;
     font-style: italic;
     margin: 0;
 }
-
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     color: var(--white);
 }
-
 /*--- Navigation --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 .nav-logo {
     margin-left: 10px;
 }
-
 .nav-item.active {
     background-color: var(--main-color);
 }
-
 .nav-item a {
     color: var(--dark-color);
 }
-
 .nav-item a:hover {
     color: var(--accent-color);
 }
-
 /*--- Home --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 
 .home {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 3px;
 }
-
 .home h1 {
     font-size: 90px;
 }
-
 .home h2 {
     font-size: 60px;
 }
-
 
 .video {
     opacity: 0.3;
     height: 730px;
 }
-
 .home-inhalt {
     display: flex;
     justify-content: center;
@@ -81,7 +65,6 @@ h4 {
     flex-direction: column;
     transform: translateY(-500px);
 }
-
 .button-home {
     height: 40px;
     width: 180px;
@@ -91,7 +74,6 @@ h4 {
     border-radius: 300px;
     transition: ease-in-out 0.2s;
 }
-
 .button-home:hover {
     height: 40px;
     width: 180px;
@@ -101,9 +83,7 @@ h4 {
     border-radius: 300px;
     transition: ease-in-out 0.2s;
 }
-
 /*--- About --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 #about {
     width: 58%;
     height: 700px;
@@ -112,11 +92,9 @@ h4 {
     align-items: center;
     margin-bottom: 200px;
 }
-
 #about h2 {
     color: var(--light-gray);
 }
-
 .bild {
     height: 400px;
     background-image: url(bilder/bar.jpg);
@@ -125,14 +103,13 @@ h4 {
     align-items: center;
     justify-content: center;
 }
-
+   
 .about-background {
     height: auto;
-    width: 50%;
+    width: 54%;
     padding: 10px;
-    background-color: #3B3B3B;   
+    background-color: #3B3B3B;  
 }
-
 .about-border {
     height: 100%;
     width: 100%;
@@ -144,16 +121,13 @@ h4 {
     justify-content: center;
     padding: 30px 0px 30px 0px;
 }
-
 .about-inhalt {
     height: 80%;
     width: 75%;
 }
-
 .about-logo {
     margin: 0px 0px 30px 0px;
 }
-
 .about-picture {
     height: 100px;
     width: 100px;
@@ -162,13 +136,11 @@ h4 {
     background-image: url(bilder/koch.jpg);
     background-size: cover;
 }
-
 /*--- Reservation --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #reservation {
     margin-top: var(--area-distance);
     border: 1px dashed gray;
 }
-
 .res {
     height: auto;
     width: 70%;
@@ -179,7 +151,6 @@ h4 {
     flex-direction: column;
     padding-bottom: 100px;
 }
-
 .opening {
     height: auto;
     width: 300px;
@@ -188,16 +159,13 @@ h4 {
     align-items: center;
     flex-direction: column;
 }
-
 .opening h1 {
     font-size: 16px;
     font-weight: 100;
 }
-
 .res-fields {
     margin-top: 20px;
 }
-
 .res input {
     height: 40px;
     width: 230px;
@@ -207,17 +175,14 @@ h4 {
     padding-left: 10px;
     font-size: 14px;
 }
-
 .res-fields-row {
     display: flex;
     justify-content: start;
     align-items: center;
 }
-
 #idInput {
     display: none;
 }
-
 /*--- Event --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #events {
     height: auto;
@@ -229,7 +194,6 @@ h4 {
     align-items: center;
     flex-direction: column;
 }
-
 .event-one {
     height: auto;
     width: auto;
@@ -237,7 +201,6 @@ h4 {
     display: flex;
     margin-top: 10px;
 }
-
 .event-two {
     height: auto;
     width: auto;
@@ -245,7 +208,6 @@ h4 {
     display: flex;
     margin-top: 10px;
 }
-
 .event-three {
     height: auto;
     width: auto;
@@ -253,7 +215,6 @@ h4 {
     display: flex;
     margin-top: 10px;
 }
-
 .event-bild-one {
     height: 180px;
     width: 180px;
@@ -264,7 +225,6 @@ h4 {
     background-image: url(bilder/event-one.jpeg);
     background-size: cover;
 }
-
 .event-bild-two {
     height: 180px;
     width: 180px;
@@ -275,7 +235,6 @@ h4 {
     background-image: url(bilder/event-two.jpeg);
     background-size: cover;
 }
-
 .event-bild-three {
     height: 180px;
     width: 180px;
@@ -286,7 +245,6 @@ h4 {
     background-image: url(bilder/event-three.webp);
     background-size: cover;
 }
-
 .event-datum {
     height: 100px;
     width: 100px;
@@ -298,24 +256,19 @@ h4 {
     justify-content: center;
     align-items: center;
 }
-
 .event-right {
     padding: 20px;
 }
-
 .event-right-three {
     padding: 20px;
     background-color: white;
 }
-
 .event-title {
     font-size: 24px;
 }
-
 .event-button {
     color: black;
 }
-
 /*--- Slider --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #menu {
     display: flex;
@@ -324,30 +277,24 @@ h4 {
     flex-direction: column;
     margin-top: var(--area-distance);
 }
-
 .logo {
     margin-bottom: 30px;
 }
-
 #carouselExampleDark {
     height: 300px;
     width: 58%;
 }
-
 .carousel-item {
     height: 300px;
 }
-
 .carousel.slide {
     height: 600px;
     width: 58%;
 }
-
 .carousel-item.active {
     height: 600px;
-  
+ 
 }
-
 .button-menu {
     height: 40px;
     width: 180px;
@@ -358,7 +305,6 @@ h4 {
     transition: ease-in-out 0.2s;
     margin-top: 30px;
 }
-
 .button-menu:hover {
     height: 40px;
     width: 180px;
@@ -368,7 +314,6 @@ h4 {
     border-radius: 300px;
     transition: ease-in-out 0.2s;
 }
-
 /*--- Contact --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #contact {
     height: auto;
@@ -381,12 +326,10 @@ h4 {
     margin-top: var(--area-distance);
     text-align: center;
 }
-
 #contact h4 {
     color: var(--dark-color);
     font-size: 16px;
 }
-
 .contact-elements {
     display: flex;
     justify-content: space-around;
@@ -395,7 +338,6 @@ h4 {
     background-color: none;
     margin-top: 40px;
 }
-
 .contact-element-one {
     width: 290px;
     display: flex;
@@ -404,7 +346,6 @@ h4 {
     flex-direction: column;
     background-color: none;
 }
-
 .contact-element-two {
     width: 290px;
     display: flex;
@@ -413,7 +354,6 @@ h4 {
     flex-direction: column;
     background-color: none;
 }
-
 .contact-element-three {
     width: 290px;
     display: flex;
@@ -422,14 +362,12 @@ h4 {
     flex-direction: column;
     background-color: none;
 }
-
 /*--- Gallery --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .game-board {
     display: grid;
     grid-template-rows: 200px 200px 200px;
     grid-template-columns: 200px 200px 200px;
 }
-
 .box {
     background: #444;
     border: 1px solid #555;
@@ -438,7 +376,6 @@ h4 {
     justify-content: center;
     color: #AAA;
 }
-
 .box img {
     height: 100%;
     width: 100%;
@@ -446,11 +383,9 @@ h4 {
 footer{
     width: 67%;
 }
-
 /*--- Media screens / Tablet / --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:1400px) {
     /* home _________________________*/
-
     /* about _________________________*/
     #about {
         width: auto;
@@ -463,7 +398,6 @@ footer{
     .res {
         width: 100%;
     }
-
     /* Events __________________________*/
     #events {
         height: auto;
@@ -483,11 +417,9 @@ footer{
         display: flex;
         margin-top: 10px;
     }
-
     .event-three {
         background-color: rgb(0, 0, 0);
     }
-
     .event-bild-one {
         height: 180px;
         width: 180px;
@@ -497,7 +429,6 @@ footer{
         background-image: url(bilder/event-one.jpeg);
         background-size: cover;
     }
-
     .event-bild-two {
         height: 180px;
         width: 180px;
@@ -507,7 +438,6 @@ footer{
         background-image: url(bilder/event-two.jpeg);
         background-size: cover;
     }
-
     .event-bild-three {
         height: 180px;
         width: 180px;
@@ -517,7 +447,7 @@ footer{
         background-image: url(bilder/event-three.webp);
         background-size: cover;
     }
-    
+   
     .event-datum {
         height: 100px;
         width: 100px;
@@ -529,70 +459,55 @@ footer{
         justify-content: center;
         align-items: center;
     }
-
     .event-right {
         padding: 20px;
         width: auto;
     }
-    
-    .event-right-three {   
-        background-color: red;            
+   
+    .event-right-three {  
+           background-color: none;
     }
-
     /* Contact __________________________________________________________________*/
     .contact-element-one {
         width: 180px;
     }
-
     .contact-element-two {
         width: 180px;
     }
-
     .contact-element-three {
         width: 180px;
     }
-
     .contact-elements {
         width: 100%;
     }
-
     /* Menü _________________________*/
-
     .carousel.slide {
         height: auto;
         width: 100%;
     }
-
     .carousel-item.active {
         height: auto;
     }
 }
-
 /*--- Media screens / Mobile / --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:850px) {
     .home h1 {
         font-size: 40px;
     }
-
     .home h2 {
         font-size: 40px;
     }
-
     .home {
         width: 100%;
         overflow: hidden;
     }
-
     .video {
         height: 600px;
     }
-
     .home-inhalt {
         transform: translateY(-400px);
     }
-
     /* home _________________________*/
-
 
     /* about _________________________*/
     #about {
@@ -602,7 +517,6 @@ footer{
         display: flex;
         align-items: center;
     }
-
     .bild {
         height: 400px;
         background-image: none;
@@ -611,23 +525,19 @@ footer{
         align-items: center;
         justify-content: center;
     }
-
     .about-background {
         height: auto;
         width: 100%;
         padding: 10px;
         background-color: #3B3B3B;
     }
-
       /* Reservieren ____________________________________________________________________*/
     .res-fields-row {
         display: flex;
         justify-content: start;
         align-items: center;
         flex-direction: column;
-
     }
-
     /* Events ____________________________________________________________________*/
     #events {
         height: auto;
@@ -639,28 +549,24 @@ footer{
         align-items: center;
         flex-direction: column;
     }
-
     .event-one {
         background-color: rgb(255, 255, 255);
         display: flex;
         margin-top: 10px;
         margin-left: 20px;
     }
-
     .event-two {
         background-color: rgb(255, 255, 255);
         display: flex;
         margin-top: 10px;
         margin-left: 20px;
     }
-
     .event-three {
         background-color: rgb(255, 255, 255);
         display: flex;
         margin-top: 10px;
         margin-left: 20px;
     }
-
     .event-bild-one {
         height: 100px;
         width: 100px;
@@ -668,7 +574,6 @@ footer{
         justify-content: center;
         align-self: center;
     }
-
     .event-bild-two {
         height: 100px;
         width: 100px;
@@ -676,7 +581,6 @@ footer{
         justify-content: center;
         align-self: center;
     }
-
     .event-bild-three {
         height: 100px;
         width: 100px;
@@ -684,7 +588,6 @@ footer{
         justify-content: center;
         align-self: center;
     }
-
     .event-datum {
         height: 50px;
         width: 50px;
@@ -696,48 +599,62 @@ footer{
         justify-content: center;
         align-items: center;
     }
-
     .event-right {
         padding: 20px;
         width: auto;
         height: 100px;
         font-size: 12px;
     }
-
     .event-right-three {
         padding: 20px;
         width: auto;
         height: 100px;
-        font-size: 12px;   
+        font-size: 12px;  
     }
-
     .event-title {
         font-size: 12px;
     }
-
     .event-button {
         color: black;
         font-size: 12px;
     }
-
     /* Contact _________________________*/
     .contact-element-one {
         width: 100%;
     }
-
     .contact-element-two {
         width: 100%;
         margin-top: 30px;
     }
-
     .contact-element-three {
         width: 100%;
         margin-top: 30px;
     }
-
     .contact-elements {
         align-items: center;
         flex-direction: column;
         width: 100%;
     }
 }
+.testtt {
+    background-color: rgb(255, 255, 255) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testtt button {
+    margin-top: 25px;
+}
+.gallery-picture {
+    background-size: cover;
+    transition: all 0.3s;
+}
+.gallery-picture:hover {
+    background-size: cover;
+    height: 230px;
+    width: 230px;
+  transform: translateY(-20px);
+   
+}
+ 
